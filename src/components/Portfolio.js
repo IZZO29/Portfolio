@@ -1,6 +1,9 @@
 import React from 'react';
 import folapo from '../assets/portfolio/folapo.png';
 import starbucks from '../assets/portfolio/starbucks.png';
+import restraurant from '../assets/portfolio/restraurant.png';
+import goride from '../assets/portfolio/goride.png';
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,6 +18,18 @@ const Portfolio = () => {
       src: starbucks,
       website: 'https://starbucks-lemon.vercel.app/',
       github: 'https://github.com/IZZO29/StarbucksClone',
+    },
+    {
+      id: 3,
+      src: restraurant,
+      website: 'https://monsieur-restaurant.vercel.app/',
+      github: 'https://github.com/IZZO29/Monsieur-Restaurant',
+    },
+    {
+      id: 4,
+      src: goride,
+      website: 'https://go-ride-eta.vercel.app/',
+      github: 'https://github.com/IZZO29/Go-ride',
     },
   ];
 
@@ -31,10 +46,10 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4  border-gray-500">Portfolio</p>
-          <p className="py-6"></p>
+          <p className="py-2"></p>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-20 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 px-15 sm:px-20">
           {portfolios.map(({ id, src, website, github }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg sm:grid-cols-1 md:justify-center">
               <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
