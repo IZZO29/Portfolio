@@ -13,11 +13,11 @@ const About = () => {
                 </p>
             </div>
             <p className='text-xl mt-20'>
-            I'm currently pursuing BE in Insitute of Engineering and Technology, DAVV, INDORE.
+            I am Computer Science Engineer(2024) Graduate from IET DAVV, INDORE.
             </p>
             <br />
             <p className='text-xl'>
-                I enjoy creating impactful web applications. Seeking a dynamic environment that values growth, I'm eager to contribute my problem-solving skills and drive positive outcomes. Let's connect if you're looking for a motivated problem solver with a passion for web development and the ability to make a meaningful impact.
+            With a passion for logical and critical thinking. I have a deep love for mathematics and consider myself a tech enthusiast. During my college years, I maintained an impressive 8.0 CGPA, demonstrating my commitment to academic excellence. Moreover, I possess strong communication skills and excel in working within a team. I have a profound understanding of people and their psychology, which allows me to foster effective collaboration and achieve common goals. Additionally, I had the privilege of being Coordinator of NSS(National Service Scheme), where I showcased my exceptional organizational and management skills. In this role, I successfully organized inter branch sports competition in college. Overall, I bring a well-rounded skill set, combining technical expertise, mathematical proficiency, and a deep interest in finance and trading. I am eager to contribute my knowledge and abilities to any project or team I am a part of.
             </p>
         </div>
 

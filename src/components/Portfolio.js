@@ -1,6 +1,8 @@
 import React from 'react';
 import folapo from '../assets/portfolio/folapo.png';
 import starbucks from '../assets/portfolio/starbucks.png';
+import webflix from '../assets/portfolio/webflix.png'
+import foodparadise from '../assets/portfolio/foodparadise.png'
 import restraurant from '../assets/portfolio/restraurant.png';
 import goride from '../assets/portfolio/goride.png';
 
@@ -9,24 +11,36 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: webflix,
+      website: 'https://webflix-gpt.vercel.app/',
+      github: 'https://github.com/IZZO29/webflix-gpt',
+    },
+    {
+      id: 2,
+      src: foodparadise,
+      website: 'https://food-paradise-one.vercel.app/',
+      github: 'https://github.com/IZZO29/food-paradise',
+    },
+    {
+      id: 3,
       src: folapo,
       website: 'https://folapo.netlify.app/',
       github: 'https://github.com/IZZO29/Folapo',
     },
     {
-      id: 2,
-      src: starbucks,
-      website: 'https://starbucks-lemon.vercel.app/',
-      github: 'https://github.com/IZZO29/StarbucksClone',
-    },
-    {
-      id: 3,
+      id: 4,
       src: restraurant,
       website: 'https://monsieur-restaurant.vercel.app/',
       github: 'https://github.com/IZZO29/Monsieur-Restaurant',
     },
     {
-      id: 4,
+      id: 5,
+      src: starbucks,
+      website: 'https://starbucks-lemon.vercel.app/',
+      github: 'https://github.com/IZZO29/StarbucksClone',
+    },
+    {
+      id: 6,
       src: goride,
       website: 'https://go-ride-eta.vercel.app/',
       github: 'https://github.com/IZZO29/Go-ride',
@@ -49,7 +63,7 @@ const Portfolio = () => {
           <p className="py-2"></p>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 px-15 sm:px-20">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, website, github }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg sm:grid-cols-1 md:justify-center">
               <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
