@@ -25,7 +25,7 @@ const Home = () => {
                     /></div>
                 </h2>
                 <p className='text-gray-500 py-4'>
-                A final year BE student, who is passionate about Web technologies. Looking for roles where I can challenge my skills and grow both personally and professionally.
+                A B.E student, who is passionate about Web technologies. Looking for roles where I can challenge my skills and grow both personally and professionally.
                 </p>
                 <div>
                     <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to to-blue-500 cursor-pointer'>
