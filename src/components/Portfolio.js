@@ -5,6 +5,8 @@ import webflix from '../assets/portfolio/webflix.png'
 import foodparadise from '../assets/portfolio/foodparadise.png'
 import restraurant from '../assets/portfolio/restraurant.png';
 import goride from '../assets/portfolio/goride.png';
+import newtube from '../assets/portfolio/newtube.png'
+import foodtruck from '../assets/portfolio/foodtruck.png'
 
 
 const Portfolio = () => {
@@ -13,37 +15,37 @@ const Portfolio = () => {
       id: 1,
       src: webflix,
       website: 'https://webflix-gpt.vercel.app/',
-      github: 'https://github.com/IZZO29/webflix-gpt',
+      github: 'https://github.com/priyanshu292/webflix-gpt',
     },
     {
       id: 2,
-      src: foodparadise,
-      website: 'https://food-paradise-one.vercel.app/',
-      github: 'https://github.com/IZZO29/food-paradise',
+      src: newtube,
+      website: 'https://newtube-kohl.vercel.app/',
+      github: 'https://github.com/priyanshu292/newtube',
     },
     {
       id: 3,
-      src: folapo,
-      website: 'https://folapo.netlify.app/',
-      github: 'https://github.com/IZZO29/Folapo',
+      src: foodparadise,
+      website: 'https://food-paradise-one.vercel.app/',
+      github: 'https://github.com/priyanshu292/food-paradise',
     },
     {
       id: 4,
       src: restraurant,
       website: 'https://monsieur-restaurant.vercel.app/',
-      github: 'https://github.com/IZZO29/Monsieur-Restaurant',
+      github: 'https://github.com/priyanshu292/Monsieur-Restaurant',
     },
     {
       id: 5,
-      src: starbucks,
-      website: 'https://starbucks-lemon.vercel.app/',
-      github: 'https://github.com/IZZO29/StarbucksClone',
+      src: goride,
+      website: 'https://go-ride-eta.vercel.app/',
+      github: 'https://github.com/priyanshu292/Go-ride',
     },
     {
       id: 6,
-      src: goride,
-      website: 'https://go-ride-eta.vercel.app/',
-      github: 'https://github.com/IZZO29/Go-ride',
+      src: foodtruck,
+      website: 'https://food-truck-puce.vercel.app/',
+      github: 'https://github.com/priyanshu292/FoodTruck',
     },
   ];
 
