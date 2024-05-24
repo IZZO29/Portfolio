@@ -1,12 +1,10 @@
 import React from 'react';
-import folapo from '../assets/portfolio/folapo.png';
-import starbucks from '../assets/portfolio/starbucks.png';
+import smartLights from "../assets/portfolio/smartLights.png"
 import webflix from '../assets/portfolio/webflix.png'
 import foodparadise from '../assets/portfolio/foodparadise.png'
 import restraurant from '../assets/portfolio/restraurant.png';
 import goride from '../assets/portfolio/goride.png';
 import newtube from '../assets/portfolio/newtube.png'
-import foodtruck from '../assets/portfolio/foodtruck.png'
 
 
 const Portfolio = () => {
@@ -43,9 +41,9 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: foodtruck,
-      website: 'https://food-truck-puce.vercel.app/',
-      github: 'https://github.com/priyanshu292/FoodTruck',
+      src: smartLights,
+      website: 'https://smart-lights.vercel.app/',
+      github: 'https://github.com/priyanshu292/Smart-Lights',
     },
   ];
 
